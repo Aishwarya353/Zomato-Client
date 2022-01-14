@@ -10,7 +10,7 @@ export const signIn = (userData) => async (dispatch) => {
   try {
     const User = await axios({
       method: "POST",
-      url: `http://localhost:4000/auth/signin`,
+      url: `https://zomato-server-master.herokuapp.com/auth/signin`,
       data: { credentials: userData },
     });
 
@@ -31,7 +31,7 @@ export const signUp = (userData) => async (dispatch) => {
   try {
     const User = await axios({
       method: "POST",
-      url: `http://localhost:4000/auth/signup`,
+      url: `auth/signup`,
       data: { credentials: userData },
     });
 
@@ -52,7 +52,7 @@ export const signOut = () => async (dispatch) => {
   try {
     localStorage.removeItem("zomatoUser");
     clearUser();
-    window.location.href = "http://localhost:3000/delivery";
+    window.location.href = "https://sharp-villani-c5e550.netlify.app/delivery";
 
     return dispatch({ type: SIGN_OUT, payload: {} });
   } catch (error) {
