@@ -29,7 +29,7 @@ function HomePage() {
          {type === "night" && <NightLife/>}
         {type === "nutri" && <Nutrition />}
       </div>
-      Hello
+     
     </>
   );
 }
