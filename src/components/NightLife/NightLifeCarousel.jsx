@@ -46,37 +46,37 @@ function NightLifeCarousel() {
   const [nightLife] = useState([
     {
       image:
-        "https://b.zmtcdn.com/data/collections/c392056cfd7c02befe8d53f94ad2a908_1581933619.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/collections/41e1750c148b298d6aa4b9fa8a87d588_1618995559.jpg",
       title: "Best of Delhi NCR",
       places: "150 Places",
     },
     {
       image:
-        "https://b.zmtcdn.com/data/collections/c392056cfd7c02befe8d53f94ad2a908_1581933619.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/collections/c577e0ca5b896facbba4ef70ffbba204_1618994185.jpg",
       title: "Best of Delhi NCR",
       places: "150 Places",
     },
     {
       image:
-        "https://b.zmtcdn.com/data/collections/c392056cfd7c02befe8d53f94ad2a908_1581933619.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/collections/c9a13aa54e83ed6eb04c11cb7fca09ac_1625637908.jpg",
       title: "Best of Delhi NCR",
       places: "150 Places",
     },
     {
       image:
-        "https://b.zmtcdn.com/data/collections/c392056cfd7c02befe8d53f94ad2a908_1581933619.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/pictures/chains/7/68607/a104b53df2e8d9998c238b2b608cc8af_o2_featured_v2.jpg?output-format=webp",
       title: "Best of Delhi NCR",
       places: "150 Places",
     },
     {
       image:
-        "https://b.zmtcdn.com/data/collections/c392056cfd7c02befe8d53f94ad2a908_1581933619.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/pictures/chains/1/65881/d9207d682046c8e1a8de44da15b5d624_o2_featured_v2.jpg?output-format=webp",
       title: "Best of Delhi NCR",
       places: "150 Places",
     },
     {
       image:
-        "https://b.zmtcdn.com/data/collections/c392056cfd7c02befe8d53f94ad2a908_1581933619.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/pictures/4/18670224/8887111e93c39fa9eb0a5498af5f0697_o2_featured_v2.jpg?output-format=webp",
       title: "Best of Delhi NCR",
       places: "150 Places",
     },
